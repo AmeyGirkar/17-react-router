@@ -1,6 +1,6 @@
 import React, { useEffect,useState } from "react";
-import {UserService} from "../service/userService.js";
-import Spinner from "../loader/loader.jsx";
+import {UserService} from "../service/userService.jsx";
+import Spinner from "../loader/Loader.jsx";
 import {Link} from "react-router-dom";
 
 function Users() {
@@ -34,7 +34,7 @@ function Users() {
   const { loading, users, error } = state;
 
   if (loading) {
-    return <Spinner />;
+    return <Spinner/>;
   }
 
   if (!loading && error) {

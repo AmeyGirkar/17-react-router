@@ -6,4 +6,8 @@ export class UserService {
     static getAllUsers(){
         return axios.get(UserService.url)
     }
+
+    static getUserById(userId){
+        return axios.get(`${UserService.url}/${userId}`)
+    }
 }
