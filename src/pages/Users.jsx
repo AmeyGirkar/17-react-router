@@ -63,7 +63,9 @@ function Users() {
                             !loading && !error && users.length > 0 && users.map((user) => (
                                 <tr key={user.id} className="border-b hover:bg-gray-100">
                                     <td className="py-2 px-4">{user.id}</td>
-                                    <td className="py-2 px-4">{user.name}</td>
+                                    <td className="py-2 px-4">
+                                      <Link to ={`/users/${user.id}`}>{user.name}</Link>
+                                    </td>
                                     <td className="py-2 px-4">{user.email}</td>
                                     <td className="py-2 px-4">{user.address.street}</td>
                                     <td className="py-2 px-4">{user.address.city}</td>

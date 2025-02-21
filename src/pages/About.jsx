@@ -14,7 +14,7 @@ function About() {
     <h2 className="text-3xl font-semibold text-blue-600 text-center mb-12">Meet Our Team</h2>
     <div className="grid md:grid-cols-3 gap-8">
       <div className="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
-        <img src="https://via.placeholder.com/150" alt="Team Member" className="w-32 h-32 mx-auto rounded-full mb-4"></img>
+        <img src="https://plus.unsplash.com/premium_photo-1668943075052-8d2596f27dfd?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team Member" className="w-32 h-32 mx-auto rounded-full mb-4"></img>
         <h3 className="text-xl font-semibold text-blue-600 mb-2">John Doe</h3>
         <p className="text-gray-700 mb-4">CEO & Founder</p>
         <p className="text-gray-600">
@@ -23,7 +23,7 @@ function About() {
       </div>
 
       <div className="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
-        <img src="https://via.placeholder.com/150" alt="Team Member" className="w-32 h-32 mx-auto rounded-full mb-4"></img>
+        <img src="https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?q=80&w=3606&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team Member" className="w-32 h-32 mx-auto rounded-full mb-4"></img>
         <h3 className="text-xl font-semibold text-blue-600 mb-2">Jane Smith</h3>
         <p className="text-gray-700 mb-4">Chief Marketing Officer</p>
         <p className="text-gray-600">
@@ -32,7 +32,7 @@ function About() {
       </div>
 
       <div className="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
-        <img src="https://via.placeholder.com/150" alt="Team Member" className="w-32 h-32 mx-auto rounded-full mb-4"></img>
+        <img src="https://images.unsplash.com/photo-1630423961052-25b829557afb?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team Member" className="w-32 h-32 mx-auto rounded-full mb-4"></img>
         <h3 className="text-xl font-semibold text-blue-600 mb-2">Alex Johnson</h3>
         <p className="text-gray-700 mb-4">Lead Developer</p>
         <p className="text-gray-600">
