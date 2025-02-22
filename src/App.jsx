@@ -1,12 +1,12 @@
 import React from 'react'
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
-import Home from './pages/home.jsx'
-import About from './pages/About.jsx'
-import Contact from './pages/Contact.jsx'
-import Navbar from './Componets/Navbar.jsx'
-import Footer from './Componets/footer.jsx'
-import Users from './pages/Users.jsx'
-import UserItems from './pages/UserItems.jsx'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Navbar from './Componets/Navbar'
+import Footer from './Componets/footer'
+import Users from './pages/Users'
+import UserItems from './pages/UserItems'
 function App() {
   return (
    <>
