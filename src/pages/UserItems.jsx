@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useNavigate, useParams} from "react-router-dom";
 import {UserService} from "../service/userService.jsx";
-import loader from "../loader/Loader.jsx";
 import Spinner from '../loader/Loader.jsx';
 
 const UserItem = () => {
