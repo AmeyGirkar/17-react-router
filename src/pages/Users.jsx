@@ -7,7 +7,7 @@ function Users() {
   const [state, setState] = useState({
     loading: false,
     users: [],
-    error: null,
+    error: null,  
   });
   const getAllUsers = async () => {
     try {
