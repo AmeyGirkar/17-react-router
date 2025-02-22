@@ -1,6 +1,6 @@
 import React, { useEffect,useState } from "react";
 import {UserService} from "../service/userService.jsx";
-import Spinner from "../loader/Loader.jsx";
+import Spinner from "../loader/Loader";
 import {Link} from "react-router-dom";
 
 function Users() {
