@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Navbar from './Componets/Navbar'
-import Footer from './Componets/footer'
+import Footer from './Componets/Footer'
 import Users from './pages/Users'
 import UserItems from './pages/UserItems'
 function App() {
